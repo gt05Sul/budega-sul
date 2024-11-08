@@ -1,0 +1,29 @@
+
+button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 0.3rem;
+    background-color: var(--cor-02);
+    outline: none;
+    transition: all 2s ease;
+}
+
+button:hover {
+    filter: brightness(1.2);
+    cursor: pointer;
+}
+
+.btn-sucesso {
+    color: var(--cor-01);
+    background-color: var(--cor-primaria);
+}
+
+.btn-erro {
+    background-color: var(--cor-destaque);
+}
+
+.btn-link {
+    background-color: inherit;
+    color: var(--cor-primaria);
+}

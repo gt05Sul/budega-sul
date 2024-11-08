@@ -1,0 +1,21 @@
+
+nav {
+    background-color: var(--cor-04);
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    color: var(--cor-01);
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav a {
+    color: var(--cor-01);
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    
+    border: solid 1px blue;	/* TESTE */
+}

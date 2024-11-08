@@ -1,0 +1,8 @@
+
+header {
+    background-color: var(--cor-02);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+}
