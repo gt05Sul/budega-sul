@@ -1,6 +1,6 @@
 import Header from "../../components/Header";
 
-export default function Imovel() {
+export default function Produto() {
     return (
         <>
             <Header />
