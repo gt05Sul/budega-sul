@@ -1,11 +1,12 @@
 import './logo.css';
 
-export default function Logo(props) {
-
+export default function Logo({ children }) {
     return (
-        <div className={props.className}>
-            {/* a definir, procurar e colocar as sugestões no dontpad */}
-            LOGO
+        <div className="logo">
+            <div>
+                <span>Budega </span>Sul
+            </div>
+            { children }
         </div>
     );
 }

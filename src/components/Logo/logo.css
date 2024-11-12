@@ -1,10 +1,25 @@
-
 .logo {
-    border: solid 1px blue;;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    font-weight: 700;
+    font-size: 1.5rem;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: var(--cor-01);
+    color: var(--cor-primaria);
+    border-bottom: solid 0.08rem var(--cor-03);
 }
 
-/* Cores */
+.logo div {
+    display: flex;
+    gap: 0.5rem;
+}
 
-/* Default */
-/* Mono (cinza) */
-/* Branco */
+.logo span {
+    color: var(--cor-destaque);
+}

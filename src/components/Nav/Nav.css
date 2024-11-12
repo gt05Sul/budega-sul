@@ -1,21 +1,22 @@
-
 nav {
-    background-color: var(--cor-04);
-    display: flex;
-    justify-content: space-between;
-    padding: 1rem;
-    color: var(--cor-01);
+    color: var(--cor-primaria);
 }
 
-nav ul {
+nav li {
     display: flex;
+    gap: 0.3rem;
     list-style: none;
 }
 
 nav a {
-    color: var(--cor-01);
-    padding: 0.5rem 1rem;
+    color: inherit;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 0.5rem;
     text-decoration: none;
-    
-    border: solid 1px blue;	/* TESTE */
+    transition: all 0.3s ease;
+}
+
+nav a:hover {
+    color: var(--cor-destaque);
 }

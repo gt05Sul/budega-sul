@@ -1,34 +1,3 @@
-/* 
-button {
-    padding: 0.5rem 1rem;
-    font-size: 1rem;
-    border: none;
-    border-radius: 0.3rem;
-    background-color: var(--cor-02);
-    outline: none;
-    transition: all 0.5s ease;
-}
-
-button:hover {
-    filter: brightness(1.2);
-    cursor: pointer;
-}
-
-.btn-sucesso {
-    color: var(--cor-01);
-    background-color: var(--cor-primaria);
-}
-
-.btn-erro {
-    background-color: var(--cor-destaque);
-}
-
-.btn-link {
-    background-color: inherit;
-    color: var(--cor-primaria);
-} */
-
-
 button {
     font-size: 1rem;
     font-weight: 700;
@@ -63,3 +32,18 @@ button:hover {
 .btn-default:hover {
     background-color: var(--cor-destaque);
 }
+
+/* .sucesso {
+    background-color: #468c00;
+    color: #f9f9f9;
+} */
+
+/* .alerta {
+    background-color: #ffd000;
+    color: #232323;
+} */
+
+/* .erro {
+    background-color: #ff024a;
+    color: #f9f9f9;
+} */
