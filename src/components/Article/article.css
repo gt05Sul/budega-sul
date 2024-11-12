@@ -34,11 +34,16 @@
 }
 
 /* ===== Serviços ===== */
-.servicos article {
+.servicos article h3, p {
+    margin: 0;
+}
+
+.card-produto {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    position: relative;
 
     background-color: var(--cor-01);
     color: var(--cor-primaria);
@@ -46,30 +51,46 @@
     height: 30rem;
     width: 24rem;
     margin-bottom: 2rem;
-    border-radius: 0.3rem;
+    border-radius: 0.5rem;
     text-align: justify;
     transition: all 0.3s ease;
     box-shadow: 0 0.3rem 0.5rem var(--cor-03);
 }
 
-.servicos article:hover {
+.card-produto:hover {
     cursor: pointer;
     transform: translateY(-0.1rem);
     box-shadow: 0 0.3rem 0.8rem var(--cor-04);
 }
 
-.servicos article .imagem-container {
+.imagem-container {
     width: 100%;
     height: 16rem;
     overflow: hidden;
 }
 
-.servicos article h3, p {
-    margin: 0;
-}
-
-.servicos article img {
+.imagem-container img {
+    border-radius: 0.5rem;
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+.acao {
+    position: absolute;
+    right: 1.3rem;
+    top: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.acao img {
+    opacity: 0.5;
+    width: 2.5rem;
+    fill: aquamarine !important;
+}
+
+.acao img:hover {
+    opacity: 1;
 }
