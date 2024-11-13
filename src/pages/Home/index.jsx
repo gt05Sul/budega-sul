@@ -1,3 +1,4 @@
+import Carousel from "../../components/Carousel";
 import Section from "../../components/Section";
 import Article from "../../components/Article";
 import Footer from "../../components/Footer";
@@ -12,6 +13,20 @@ import cardCart from '../../assets/cart-shopping.svg';
 import cardHeart from '../../assets/heart.svg';
 
 export default function Home() {
+    const carouselItems = [
+        {
+            url: 'https://cdn.pixabay.com/photo/2019/08/02/12/51/tram-4379656_1280.jpg',
+            caption: 'Legenda 1'
+        },
+        {
+            url: 'https://cdn.pixabay.com/photo/2024/10/23/18/54/squirrel-monkeys-9143848_1280.jpg',
+            caption: 'Legenda 2'
+        },
+        {
+            url: 'https://cdn.pixabay.com/photo/2023/02/07/19/53/mountains-7774999_1280.jpg',
+            caption: 'Legenda 3'
+        }
+    ];
 
     return (
         <>
@@ -19,7 +34,9 @@ export default function Home() {
                 <Nav />
             </Logo>
 
-            <Header />
+            <Header>
+                <Carousel carouselItems={carouselItems} />
+            </Header>
 
             <Main>
                 <Section>

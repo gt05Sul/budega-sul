@@ -4,6 +4,7 @@ import Sobre from "../pages/Sobre";
 import Contato from "../pages/Contato";
 import Produto from "../pages/Produto";
 import NotFound from "../pages/NotFound";
+import CadastroProduto from "../pages/CadastroProduto";
 
 export default function AppRoutes() {
     return (
@@ -13,6 +14,7 @@ export default function AppRoutes() {
             <Route path="/contato" element={<Contato />} />
             <Route path="/produto" element={<Produto />} />
             <Route path="/sobre" element={<Sobre />} />
+            <Route path="/cadastro-produto" element={<CadastroProduto />} />
             <Route path="*" element={<NotFound />} />
         </Routes>
     );
